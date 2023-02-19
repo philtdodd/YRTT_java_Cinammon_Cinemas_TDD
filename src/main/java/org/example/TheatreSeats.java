@@ -4,11 +4,12 @@ public class TheatreSeats {
     private Integer availableSeats;
     private Integer customers;
     private Integer[][] seats;
-
     private Integer currentRow;
     private Integer currentSeat;
     private Integer maxRows;
     private Integer maxSeats;
+
+    private final static String[] rowsLetters = { "A", "B", "C", "D", "E", "F" };
 
     public TheatreSeats(Integer rows, Integer seatsPerRow) {
         this.availableSeats = rows * seatsPerRow;
@@ -33,8 +34,10 @@ public class TheatreSeats {
 
         for (int row = 0; row < seats.length; row++)
             for (int seat = 0; seat < seats[0].length; seat++)
-                if (seats[row][seat] != -1)
-                    resultString += seats[row][seat] + " ";
+                if (seats[row][seat] != -1) {
+
+                    resultString += seats[row][seat] + rowsLetters[row] + (seat+1) + " ";
+                }
 
         return resultString;
     }
