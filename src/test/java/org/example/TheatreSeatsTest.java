@@ -18,4 +18,11 @@ public class TheatreSeatsTest {
 
         assertEquals("", theatreSeats.getSoldSeats());
     }
+
+    @Test
+    void book1Seat() {
+        TheatreSeats theatreSeats = new TheatreSeats(3,5);
+
+        assertEquals(true, theatreSeats.bookSeats(1));
+    }
 }
