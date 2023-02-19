@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0e83d57-199b-48b4-83e2-f5c833704529" name="Changes" comment="red: Initialised the seats but still fails">
+    <list default="true" id="e0e83d57-199b-48b4-83e2-f5c833704529" name="Changes" comment="red: book seat test fails no method">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TheatreSeats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TheatreSeats.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +131,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676814078917</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="green: Passes the no seats booked">
+      <created>1676814175734</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676814175734</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refector: Tidied the code">
+      <created>1676814342267</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676814342267</updated>
+    </task>
+    <task id="LOCAL-00007" summary="red: book seat test fails no method">
+      <created>1676814498318</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676814498318</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,6 +160,9 @@
     <MESSAGE value="green: test for available seats passess" />
     <MESSAGE value="red: Get booked seats fails for empty" />
     <MESSAGE value="red: Initialised the seats but still fails" />
-    <option name="LAST_COMMIT_MESSAGE" value="red: Initialised the seats but still fails" />
+    <MESSAGE value="green: Passes the no seats booked" />
+    <MESSAGE value="refector: Tidied the code" />
+    <MESSAGE value="red: book seat test fails no method" />
+    <option name="LAST_COMMIT_MESSAGE" value="red: book seat test fails no method" />
   </component>
 </project>
