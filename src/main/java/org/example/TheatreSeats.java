@@ -5,7 +5,7 @@ public class TheatreSeats {
     private Integer[][] seats;
 
     public TheatreSeats(Integer rows, Integer seatsPerRow) {
-        this.availableSeats = 0;
+        this.availableSeats = rows * seatsPerRow;
     }
 
     public Integer getAvailableSeats() {
