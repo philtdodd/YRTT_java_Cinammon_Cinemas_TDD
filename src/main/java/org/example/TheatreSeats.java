@@ -37,6 +37,7 @@ public class TheatreSeats {
             for (int seat = 0; seat < seats[0].length; seat++)
                 if (seats[row][seat] != -1) {
                     if (!currentCustomer.equals(seats[row][seat])) {
+                        resultString.append("\n");
                         resultString.append(seats[row][seat]);
                         resultString.append(" ");
                         currentCustomer = seats[row][seat];

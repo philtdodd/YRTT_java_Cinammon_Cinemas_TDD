@@ -64,6 +64,6 @@ public class TheatreSeatsTest {
 
         assertTrue(theatreSeats.bookSeats(1));
         assertTrue(theatreSeats.bookSeats(1));
-        assertEquals("1 A1 2 A2", theatreSeats.getSoldSeats());
+        assertEquals("1 A1 \n2 A2", theatreSeats.getSoldSeats());
     }
 }

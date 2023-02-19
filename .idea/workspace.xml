@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0e83d57-199b-48b4-83e2-f5c833704529" name="Changes" comment="refactoir: tidy up code">
+    <list default="true" id="e0e83d57-199b-48b4-83e2-f5c833704529" name="Changes" comment="refactor: tidy up code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TheatreSeats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TheatreSeats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TheatreSeatsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TheatreSeatsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +57,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TheatreSeatsTest">
-    <configuration name="TheatreSeatsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="TheatreSeatsTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="YRTT_java_Cinnamon_Cinema" />
       <extension name="coverage">
         <pattern>
@@ -73,28 +73,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TheatreSeatsTest.getAvailableSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="YRTT_java_Cinnamon_Cinema" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TheatreSeatsTest" />
-      <option name="METHOD_NAME" value="getAvailableSeats" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.TheatreSeatsTest" />
-        <item itemvalue="JUnit.TheatreSeatsTest.getAvailableSeats" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -189,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676816795387</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refactoir: tidy up code">
+      <created>1676828967890</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676828967890</updated>
+    </task>
+    <task id="LOCAL-00014" summary="refactor: tidy up code">
+      <created>1676828983266</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676828983266</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -206,6 +198,7 @@
     <MESSAGE value="red: book seat some test fail still" />
     <MESSAGE value="green: all min, max, &amp; edge tests passed" />
     <MESSAGE value="refactoir: tidy up code" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoir: tidy up code" />
+    <MESSAGE value="refactor: tidy up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: tidy up code" />
   </component>
 </project>
