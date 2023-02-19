@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0e83d57-199b-48b4-83e2-f5c833704529" name="Changes" comment="red: book seat added more tests">
+    <list default="true" id="e0e83d57-199b-48b4-83e2-f5c833704529" name="Changes" comment="refactoir: tidy up code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TheatreSeats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TheatreSeats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TheatreSeatsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TheatreSeatsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676816167350</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="red: book seat some test fail still">
+      <created>1676816546471</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676816546471</updated>
+    </task>
+    <task id="LOCAL-00012" summary="green: all min, max, &amp; edge tests passed">
+      <created>1676816795387</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676816795387</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,6 +203,9 @@
     <MESSAGE value="red: book seat  fails infinite loop" />
     <MESSAGE value="green: book seat no longer fails" />
     <MESSAGE value="red: book seat added more tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="red: book seat added more tests" />
+    <MESSAGE value="red: book seat some test fail still" />
+    <MESSAGE value="green: all min, max, &amp; edge tests passed" />
+    <MESSAGE value="refactoir: tidy up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoir: tidy up code" />
   </component>
 </project>

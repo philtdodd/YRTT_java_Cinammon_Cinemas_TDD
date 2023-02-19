@@ -3,7 +3,7 @@ package org.example;
 public class TheatreSeats {
     private Integer availableSeats;
     private Integer customers;
-    private Integer[][] seats;
+    private final Integer[][] seats;
     private Integer currentRow;
     private Integer currentSeat;
     private Integer maxRows;
@@ -30,21 +30,24 @@ public class TheatreSeats {
     }
 
     public String getSoldSeats() {
-        String resultString = "";
         Integer currentCustomer = -1;
+        StringBuilder resultString = new StringBuilder();
 
         for (int row = 0; row < seats.length; row++)
             for (int seat = 0; seat < seats[0].length; seat++)
                 if (seats[row][seat] != -1) {
                     if (!currentCustomer.equals(seats[row][seat])) {
-                        resultString += seats[row][seat] + " ";
+                        resultString.append(seats[row][seat]);
+                        resultString.append(" ");
                         currentCustomer = seats[row][seat];
                     }
 
-                    resultString += rowsLetters[row] + (seat + 1) + " ";
+                    resultString.append(rowsLetters[row]);
+                    resultString.append(seat + 1);
+                    resultString.append(" ");
                 }
 
-        return resultString.trim();
+        return resultString.toString().trim();
     }
 
     public boolean bookSeats(Integer seats) {
@@ -52,6 +55,7 @@ public class TheatreSeats {
             customers++;
             while (seats > 0) {
                 seats--;
+                availableSeats--;
                 this.seats[currentRow][currentSeat++] = customers;
                 if (currentSeat.equals(maxSeats)) {
                     currentSeat = 0;
