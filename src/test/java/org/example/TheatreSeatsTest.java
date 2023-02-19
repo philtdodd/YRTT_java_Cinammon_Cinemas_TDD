@@ -25,4 +25,43 @@ public class TheatreSeatsTest {
 
         assertEquals(true, theatreSeats.bookSeats(1));
     }
+
+    @Test
+    void book20Seats() {
+        TheatreSeats theatreSeats = new TheatreSeats(3,5);
+
+        assertEquals(false, theatreSeats.bookSeats(20));
+    }
+
+    @Test
+    void book15Seats() {
+        TheatreSeats theatreSeats = new TheatreSeats(3,5);
+
+        assertEquals(true, theatreSeats.bookSeats(15));
+    }
+
+    @Test
+    void book1SeatCheckSeatBooked() {
+        TheatreSeats theatreSeats = new TheatreSeats(3,5);
+
+        assertEquals(true, theatreSeats.bookSeats(1));
+        assertEquals("1 A1", theatreSeats.getSoldSeats());
+    }
+
+    @Test
+    void book15SeatCheckSeatBooked() {
+        TheatreSeats theatreSeats = new TheatreSeats(3,5);
+
+        assertEquals(true, theatreSeats.bookSeats(15));
+        assertEquals("1 A1 A2 A3 A4 A5 B1 B2 B3 B4 B5 C1 C2 C3 C4 C5", theatreSeats.getSoldSeats());
+    }
+
+    @Test
+    void book1SeatTwiceCheckResult() {
+        TheatreSeats theatreSeats = new TheatreSeats(3,5);
+
+        assertEquals(true, theatreSeats.bookSeats(1));
+        assertEquals(true, theatreSeats.bookSeats(1));
+        assertEquals("1 A1, 2 A2", theatreSeats.getSoldSeats());
+    }
 }
