@@ -9,7 +9,7 @@ public class TheatreSeats {
     private Integer maxRows;
     private Integer maxSeats;
 
-    private final static String[] rowsLetters = { "A", "B", "C", "D", "E", "F" };
+    private final static String[] rowsLetters = {"A", "B", "C", "D", "E", "F"};
 
     public TheatreSeats(Integer rows, Integer seatsPerRow) {
         this.availableSeats = rows * seatsPerRow;
@@ -31,15 +31,20 @@ public class TheatreSeats {
 
     public String getSoldSeats() {
         String resultString = "";
+        Integer currentCustomer = -1;
 
         for (int row = 0; row < seats.length; row++)
             for (int seat = 0; seat < seats[0].length; seat++)
                 if (seats[row][seat] != -1) {
+                    if (!currentCustomer.equals(seats[row][seat])) {
+                        resultString += seats[row][seat] + " ";
+                        currentCustomer = seats[row][seat];
+                    }
 
-                    resultString += seats[row][seat] + rowsLetters[row] + (seat+1) + " ";
+                    resultString += rowsLetters[row] + (seat + 1) + " ";
                 }
 
-        return resultString;
+        return resultString.trim();
     }
 
     public boolean bookSeats(Integer seats) {
