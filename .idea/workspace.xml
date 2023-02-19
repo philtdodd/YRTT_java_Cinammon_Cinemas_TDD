@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0e83d57-199b-48b4-83e2-f5c833704529" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="e0e83d57-199b-48b4-83e2-f5c833704529" name="Changes" comment="green: test for available seats passess">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TheatreSeats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TheatreSeats.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TheatreSeatsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TheatreSeatsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +104,26 @@
       <option name="presentableId" value="Default" />
       <updated>1676810883331</updated>
     </task>
+    <task id="LOCAL-00001" summary="red: initial test fails">
+      <created>1676813186062</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676813186062</updated>
+    </task>
+    <task id="LOCAL-00002" summary="green: test for available seats passess">
+      <created>1676813401890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676813401890</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="red: initial test fails" />
+    <MESSAGE value="green: test for available seats passess" />
+    <option name="LAST_COMMIT_MESSAGE" value="green: test for available seats passess" />
   </component>
 </project>

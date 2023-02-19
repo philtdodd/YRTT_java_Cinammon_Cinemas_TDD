@@ -11,4 +11,11 @@ public class TheatreSeatsTest {
 
         assertEquals(15, theatreSeats.getAvailableSeats());
     }
+
+    @Test
+    void getSoldSeatsEmpty() {
+        TheatreSeats theatreSeats = new TheatreSeats(3,5);
+
+        assertEquals("", theatreSeats.getSoldSeats());
+    }
 }
