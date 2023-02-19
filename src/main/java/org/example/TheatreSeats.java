@@ -23,7 +23,8 @@ public class TheatreSeats {
 
         for (int row = 0; row < seats.length; row++) {
             for (int seat = 0; seat < seats[0].length; seat++) {
-                resultString += seats[row][seat] + " ";
+                if (seats[row][seat] != -1)
+                    resultString += seats[row][seat] + " ";
             }
         }
 
