@@ -1,2 +1,4 @@
-package org.example;public class TheatreSeatsTest {
+package org.example;
+
+public class TheatreSeatsTest {
 }
