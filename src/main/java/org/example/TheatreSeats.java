@@ -5,10 +5,20 @@ public class TheatreSeats {
     private Integer customers;
     private Integer[][] seats;
 
+    private Integer currentRow;
+    private Integer currentSeat;
+    private Integer maxRows;
+    private Integer maxSeats;
+
     public TheatreSeats(Integer rows, Integer seatsPerRow) {
         this.availableSeats = rows * seatsPerRow;
         this.customers = 0;
+        this.maxSeats = rows;
+        this.maxSeats = seatsPerRow;
+        this.currentRow = 0;
+        this.currentSeat = 0;
         this.seats = new Integer[rows][seatsPerRow];
+
         for (int row = 0; row < seats.length; row++)
             for (int seat = 0; seat < seats[0].length; seat++)
                 seats[row][seat] = -1;
@@ -33,7 +43,12 @@ public class TheatreSeats {
         if (availableSeats - seats >= 0) {
             customers++;
             while (seats > 0) {
-
+                seats--;
+                this.seats[currentRow][currentSeat++] = customers;
+                if (currentSeat.equals(maxSeats)) {
+                    currentSeat = 0;
+                    currentRow++;
+                }
             }
 
             return true;

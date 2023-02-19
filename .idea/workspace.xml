@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0e83d57-199b-48b4-83e2-f5c833704529" name="Changes" comment="red: book seat test fails no method">
+    <list default="true" id="e0e83d57-199b-48b4-83e2-f5c833704529" name="Changes" comment="red: book seat  fails infinite loop">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TheatreSeats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TheatreSeats.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676814498318</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="red: book seat  fails infinite loop">
+      <created>1676814972354</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676814972354</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,6 +170,7 @@
     <MESSAGE value="green: Passes the no seats booked" />
     <MESSAGE value="refector: Tidied the code" />
     <MESSAGE value="red: book seat test fails no method" />
-    <option name="LAST_COMMIT_MESSAGE" value="red: book seat test fails no method" />
+    <MESSAGE value="red: book seat  fails infinite loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="red: book seat  fails infinite loop" />
   </component>
 </project>
